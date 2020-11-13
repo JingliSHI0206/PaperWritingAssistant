@@ -25,7 +25,7 @@ def search_paper():
 def get_resutls(keywords=None):
     if len(keywords) == 0:
         return ''
-    path_index = 'E:\AUT\Dataset\paper_index\cs_CL'
+    path_index = 'YOUR PAPER INDEX PATH'
     search_paper = SearchPaper(path_index,keywords)
     res = search_paper.sear_paper()
     return res
