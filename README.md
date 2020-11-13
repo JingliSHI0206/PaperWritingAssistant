@@ -24,3 +24,8 @@ pip install -r requirements.txt
 `
 3.run display_research.py to start flask server and use paper writing assistant.
 `
+
+
+## Feedback
+
+Welcome any useful comments or advice. Please let me know if you find any errors. Thank you.
