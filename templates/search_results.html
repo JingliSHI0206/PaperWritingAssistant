@@ -1,0 +1,22 @@
+{% extends "paper_search.html" %}
+
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+    .important { color: #336699; }
+
+    
+    b, span{ 
+         background-color: yellowgreen;
+    }
+
+
+  </style>
+{% endblock %}
+{% block content %}
+  <h1>Results</h1>
+  <div id='res' class='res'>
+
+  </div>
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "paper_search.html" %}
+{% block title %}Results{% endblock %}
+{% block head %}
+  {{ super() }}
+  <h1>this is results</h1>
+  <style type="text/css">
+    .important { color: #336699; }
+
+    
+    b{ 
+         background-color: yellowgreen;
+    }
+  </style>
+{% endblock %}
+{% block content %}
+  <h1>Results</h1>
+
+  <div>
+    Vector Space <b style="background-color: yellowgreen;" class="match term0">Model</b> (VSM). In this classical...tive probabilistic <b class="match term1">model</b> that fits k latent...use of a Skip-gram <b class="match term1">model</b> applied over two different
+  </div>
+  <div>
+    we will test the best-known and most popular ones such as
+    ESA [9], the method <span style="background-color: tomato;" class="match term0">proposed</span> by Milne and Witten [10], and the
+    most recent approaches based on entity embeddings [1].
+  </div>
+  <p class="important">
+    Welcome on my awesome homepage.
+{% endblock %}
