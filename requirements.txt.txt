@@ -1,0 +1,5 @@
+sqlite3
+whoosh
+flask
+pdfminer.six
+pdfminer
