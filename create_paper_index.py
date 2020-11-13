@@ -34,7 +34,7 @@ class CreateIndex():
 
 
 if __name__ == '__main__':
-    path_index = 'E:\AUT\Dataset\paper_index\cs_CL'
-    path_paper_text = 'E:\AUT\Dataset\paper_text\cs_CL'
+    path_index = 'YOUR INDEX PATH'
+    path_paper_text = 'YOUR TEXT PAPER PATH'
     createIndx = CreateIndex(path_index, path_paper_text)
     createIndx.create_index()
