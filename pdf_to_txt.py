@@ -88,9 +88,8 @@ class Pdf2Text():
 
 
 if __name__ == '__main__':
-    path_pdf = 'E:\AUT\Dataset\paper_ai_arxiv\cs.CL'
-    #path_pdf = 'H:\AUT_Research_Local\LargeData\arxiv\612177_1135627_compressed_arxiv-metadata-oai-snapshot.json\paper_ai\cs.CL'
-    path_text = 'text/arxiv_cs_cl/'
+    path_pdf = 'YOUR PDF PAPER PATH'
+    path_text = 'YOUR TEXT PAPER PATH'
     #pdf2txt = Pdf2Text('pdf/','text/')
     pdf2txt = Pdf2Text(path_pdf, path_text)
     pdf2txt.pdf2txt()
